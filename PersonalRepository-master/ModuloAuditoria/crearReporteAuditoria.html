@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../ModuloAuditoria/css/crearReporteAuditoria.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Crear reporte Auditoria</title>
+</head>
+<body>
+    <!--Area de trabajo-->
+    <main class="workspace">
+        <h1 class="titleModule">Crear reporte de auditoria</h1>
+        <form class="searchForm" action="">
+            <label class="search_parametros" for="itemSearch">Filtrar por / </label>
+            <label class="search_parametros" for="itemSearch">Usuario:</label>
+            <select class="input-text" type="text" name="nombre" id="searchBar">
+                <option value="opcion1" select>Todo</opcion>
+                <option value="opcion1" select>Nelson Fierro Cubillos</opcion>
+                <option value="opcion2" select>Andres Camilo Garzón Herrera</opcion>
+                <option value="opcion3"select>Luis Jose Gomez Perez</opcion>
+            </select>
+
+            <label class="search_parametros" for="itemSearch">Acción:</label>
+            <select class="input-text" type="text" name="nombre" id="searchBar">
+                <option value="opcion1" select>Todo</opcion>
+                    <option value="opcion2" select>Inserción</opcion>
+                <option value="opcion2" select>Modificación</opcion>
+                <option value="opcion3"select>Eliminación</opcion>
+            </select>
+
+            <label class="search_parametros" for="itemSearch">Fecha:</label>
+            <select class="input-text" type="text" name="nombre" id="searchBar">
+                <option value="opcion1" select>Todo</opcion>
+                <option value="opcion2" select>11/22/2021</opcion>
+                <option value="opcion3"select>12/12/2021</opcion>
+            </select>
+              
+            <!--<input type="submit" value="Buscar"> -->  
+        </form>
+        <div class="container">
+                <form class="formulario">
+                    <h2 class="formulario__titulo">Seleccionar campos</h2>
+                    <div class="contenedor-campos">
+                        <div class="campo">   
+                            <label>Usuario:</label>
+                            <input class="checkbox" type="checkbox">
+                        </div>
+                        <div class="campo">
+                            <label>Acción:</label>
+                            <input class="checkbox" type="checkbox">
+                        </div>
+                        <div class="campo">
+                            <label>Fecha:</label>
+                            <input class="checkbox" type="checkbox">
+                        </div>
+                        <div class="campo">
+                            <label>Hora:</label>
+                            <input class="checkbox" type="checkbox">
+                        </div>
+
+                        <div class="campo">
+                            <label>Afectación:</label>
+                            <input class="checkbox" type="checkbox">
+                        </div>
+                
+                        <div class="campo">
+                            <label>Seleccionar todos:</label>
+                            <input class="checkbox" type="checkbox">
+                        </div>
+                        <div class="campo">
+                        </div>
+                        <div class="campo">
+                            <label>Pdf:</label>
+                            <input class="checkbox" type="checkbox">
+                            <p>&nbsp;&nbsp;&nbsp;u/o</p>
+                            <div class="campo">
+                            <label>Excel:</label>
+                            <input class="checkbox" type="checkbox">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="botones">
+                        <a href="">GENERAR</a>
+                        <a href="moduloAuditoriaInicio.html">CANCELAR</a>
+                    </div>
+                </form>
+        </div>
+        <div class="previsualizacion">
+            <h2 class="titulo_previsualizacion">Previsualización</h2>
+            <a href="#" class="icono_dowload"><svg width="35" height="35" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M38.9778 4.95556L35.8889 1.22222C35.2889 0.466667 34.3778 0 33.3333 0H6.66667C5.62222 0 4.71111 0.466667 4.08889 1.22222L1.02222 4.95556C0.377778 5.71111 0 6.71111 0 7.77778V35.5556C0 38 2 40 4.44444 40H35.5556C38 40 40 38 40 35.5556V7.77778C40 6.71111 39.6222 5.71111 38.9778 4.95556ZM20 32.2222L7.77778 20H15.5556V15.5556H24.4444V20H32.2222L20 32.2222ZM4.71111 4.44444L6.51111 2.22222H33.1778L35.2667 4.44444H4.71111Z" fill="black"/>
+                </svg></a>  
+        </div>
+        <div class="contenedor__imagen">
+            <div class="container">
+            <img src="../ModuloAuditoria/img/reporteAuditoria.png">   
+            </div> 
+        </div>       
+    </main>
+</body>
+</html>

@@ -1,0 +1,174 @@
+:root{
+    --rojo: #EA411D;
+    --naranja: #F78811;
+}
+
+*{
+    font-family: Roboto;
+}
+
+body{
+    width: 89%;
+}
+
+.main{
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+h1{
+    margin-top: 0px;
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contenedor-campos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h2{
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.campo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+    width: 100%;
+}
+
+.campo label{
+    display: flex;
+    justify-content: end;
+    width: 30%;
+    padding-right: 2%;
+    font-weight: 700;
+}
+
+.campo input{
+    display: inline;
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 7px;
+}
+
+.campo .campomedio{
+    text-align: left;
+    width: 40%;
+    margin-right: 40%;
+}
+
+.campo .date{
+    width: 28%;
+}
+
+.campo .fecha label{
+    padding-right: 0px;
+}
+
+.direccion{
+    display: grid;
+    grid-template-columns: repeat(4, 25% [col-start]);
+    justify-items: right;
+}
+
+.campo .city{
+    width: 89%;
+    grid-column-start: col-start 1;
+}
+
+.campo .address{
+    width: 95%;
+}
+
+.ciudad{
+    margin-right: 10px;
+}
+
+.botones{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px 40px;
+    color: black;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.confirm{
+    background-color: var(--naranja);
+}
+
+.cancel{
+    background-color: var(--rojo);
+}
+
+.campo .product{
+    width: 30%;
+}
+
+.campo .priceProduct{
+    width: 25%;
+}
+
+.campoCompartido{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    column-gap: 3px;
+    justify-items: end;
+}
+
+textarea{
+    grid-column-start: 4;
+    width: 97%;
+    resize: none;
+    border-radius: 10px;
+    border: 2px black solid;
+    padding: 5px;
+    grid-column-start: 2;
+}
+
+img{
+    width: 400px;
+    margin-left: 13px;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.campoCompartido label{
+    width: 60%;
+}
+
+.cliente input{
+    width: 28%;
+}

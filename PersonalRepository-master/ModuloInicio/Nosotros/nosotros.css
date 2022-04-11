@@ -1,0 +1,110 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    margin: 0%;
+}
+
+header{
+    border-bottom:solid red;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center start;
+ }
+ 
+ header .img{
+     margin-right: 0;
+     margin-left: auto;
+ }
+ 
+ h1{
+     text-transform: uppercase;
+ }
+ header a{
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+     text-transform: uppercase;
+ }
+ 
+ 
+ .center{
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .logo{
+     align-items: center;
+     height:6rem;
+     width:6rem;
+     border-radius: 50%;
+ }
+ 
+ 
+ .contenedorNav a{
+     letter-spacing: 2px;
+     text-decoration: none;
+     text-transform: uppercase;
+     color: black;
+     position: relative;
+     margin: 4rem;
+ }
+ 
+ .contenedorNav a::after{
+     content: "";
+     position: absolute;
+     right: 0%;
+     bottom: 0%;
+     left: 0%;
+     height: 2px;
+     width: 100%;
+     background: orangered;
+     /*creacion de la animacion*/
+     transform-origin: right;
+     transform: scaleX(0);
+     transition: trasform 0.2s ease-in-out;
+ }
+ 
+ .contenedorNav a:hover:after{
+     /*animacion de ixquierda a derecha*/
+     transform-origin: left;
+     transform: scaleX(1);
+ }
+
+/*Estructuracion del footer*/
+
+footer{
+    background-color: black;
+    display: grid;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer div{
+    color: white;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+    
+}
+
+section{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 1rem;
+    height: 22rem;
+
+}
+
+.titulos{
+    text-align: center;
+    margin: 3rem;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancelar evento</title>
+    <link rel="stylesheet" href="../ModuloEventos/css/formulacioCancelarEvento.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+<body>
+    <div class="main">
+        <h1 class="titleModule">Cancelar evento</h1>
+        <div class="formulario">
+            <form action="">
+                <div class="contenedor-campos">
+                    
+                    <div class="campo">
+                        <label>Nombre del evento:</label>
+                        <input type="text" placeholder="Reunión de inicio de proyecto">
+                    </div>
+
+                    <div class="campo">
+                        <label>Fecha: </label>
+                        <input type="date" class="date">
+                            
+                        <label>Hora:</label>
+                        <input type="time" class="date" placeholder="01:00 am">
+                
+                    </div>
+
+                    <div class="campo">
+                        <label>Proyecto:</label>
+                        <input type="text" list="proyecto" placeholder="Proyecto casa tipo chalet proyecto 80m2 zona rural fusagasuga">
+                        <datalist id="proyecto">
+                            <option value="casa tipo chalet proyecto 80m2">
+                            <option value="casa tipo chalet proyecto 110m2">
+                            <option value="casa tipo chalet proyecto 120m2">
+                        </datalist>
+                    </div>
+
+                    <div class="campo campoCompartido">
+                        <label>Invitados:</label>
+                        <textarea cols="120" rows="10" placeholder="Nelson Fierro Cubillos, Alejandro Gomez Herrera Torrez"></textarea>
+                    </div>
+                    
+                    <div class="campo campoCompartido">
+                        <label>Motivo:</label>
+                        <textarea cols="120" rows="10" placeholder="Escriba el motivo de la cancelacion del evento..."></textarea>
+                    </div>
+
+                    <div class="botones">
+                        <a href="moduloEventosInicio.html">CONFIRMAR</a>
+                        <a href="moduloEventosInicio.html">CANCELAR</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

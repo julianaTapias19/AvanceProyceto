@@ -1,0 +1,89 @@
+*{
+    font-family: Roboto;
+}
+
+body{
+    width: 89%;
+}
+
+.workspace .titleModule{
+    text-align: center;
+    margin: 0px;
+    font-size: 48px;
+}
+
+.button-uno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: orange;
+    width: 180px;
+    height: 40px;
+    margin-bottom: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.button-dos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #EA411D;
+    width: 180px;
+    height: 40px;
+    margin-bottom: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.form-uno {
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 30% 20% 25% 25%;
+}
+
+.form-dos {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.form-tres {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    align-items: center;
+    margin-left: 32rem;
+    width: 20rem;
+}
+
+.seleccionar {
+    text-align: center;
+    font: bold 23px verdana;
+}
+
+.confirmar {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 50rem;
+    margin-left: 23rem;
+}
+
+.seleccionar-campos {
+    padding-top: 1rem;
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 80rem;
+    align-content: center;
+}
+
+.campo label {
+    font: 18px roboto;
+}
+
+.campo {
+    margin-bottom: 15px;
+}

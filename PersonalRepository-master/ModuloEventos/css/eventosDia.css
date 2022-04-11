@@ -1,0 +1,146 @@
+:root {
+    --orange: #ffa500;
+    --black: #000000;
+    --white: #ffffff;
+    --red: #EA411D;
+    --verde: #63AF5D;
+}
+
+*{
+    font-family: "Roboto";
+}
+
+body{
+    padding: 0px;
+    margin: 0%;
+    border: 0px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.workspace{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.workspace .titleModule{
+    text-align: center;
+    margin: 0px;
+    font-size: 48px;
+}
+
+.enunciado_calendario, header {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    margin: auto;
+    padding: auto;
+    padding: 1%;
+    justify-content: right;
+    margin-right: 5%;
+}
+
+.seccion {
+    text-align: center;
+    margin: auto;
+    width: 89%;
+    border: 1px;
+}
+
+ol, div {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+
+.contenedor {
+    border: 1px solid var(--black);
+    padding-bottom: 2%;
+    margin: 0%;
+    padding-top: 5%;
+    width: 450%;
+    margin-left: -17%;
+}
+
+li {
+    border: 1px solid var(--black);
+    padding-bottom: 2%;
+    margin: 0%;
+    padding-top: 5%;
+    width: 60%;
+}
+
+.border {
+    border-radius:  10px 0px 0px 0px;
+}
+
+.borderuno {
+    border-radius:  0px 10px 0px 0px;
+}
+
+.borderdos {
+    border-radius:  0px 0px 0px 10px;
+}
+
+.bordertres {
+    border-radius:  0px 0px 10px 0px;
+}
+
+@media (max-width: 1366px){
+    li {
+        border: 1px solid var(--black);
+        padding-bottom: 2%;
+        margin: 0%;
+        padding-top: 5%;
+        width: 70%;
+    }
+    .contenedor {
+        border: 1px solid var(--black);
+        padding-bottom: 2%;
+        margin: 0%;
+        padding-top: 5%;
+        width: 450%;
+        margin-left: -13%;
+    }
+ }
+
+.evento_dia {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--black);
+    background-color: var(--orange);
+    width: 95%;
+    margin-top: -4px;
+    margin: -1px auto;
+    padding: 0;
+    border-radius: 5px;
+}
+
+li div {
+    border: 1px solid var(--black);
+    padding-bottom: 2%;
+    margin: .2%;
+    padding-top: 5%;
+}
+
+
+
+

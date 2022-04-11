@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../ModuloAuditoria/css/moduloAuditoria.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Proyectos Unikasas Auditoria</title>
+</head>
+<body>
+    <!--Area de trabajo-->
+    <main class="workspace">
+        <h1 class="titleModule">Registro de auditoria</h1>
+        <form class="searchForm" action="">
+            <label class="search_parametros" for="itemSearch">Filtrar por / </label>
+            <label class="search_parametros" for="itemSearch">Usuario:</label>
+            <select class="input-text" type="text" name="nombre" id="searchBar">
+                <option value="opcion1" select>Todo</opcion>
+                <option value="opcion2" select>Andres Camilo Garzón Murillo</opcion>
+                <option value="opcion3"select>Juan Felipe Gomez Herrera</opcion>
+            </select>
+
+            <label class="search_parametros" for="itemSearch">Acción:</label>
+            <select class="input-text" type="text" name="nombre" id="searchBar">
+                <option value="opcion1" select>Todo</opcion>
+                    <option value="opcion2" select>Inserción</opcion>
+                <option value="opcion2" select>Modificación</opcion>
+                <option value="opcion3"select>Eliminación</opcion>
+            </select>
+
+            <label class="search_parametros" for="itemSearch">Fecha:</label>
+            <select class="input-text" type="text" name="nombre" id="searchBar">
+                <option value="opcion1" select>Todo</opcion>
+                <option value="opcion2" select>11/22/2021</opcion>
+                <option value="opcion3"select>12/12/2021</opcion>
+            </select>
+                    
+            <input type="submit" value="Buscar">
+        </form>
+        <div class="container">
+            <aside>
+                <div class="button">
+                    <a class="buttonCreateReporte" href="crearReporteAuditoria.html">Crear reporte</a>
+                </div>
+            </aside>
+            <main class="auditoia">
+                <section>
+                    <div class="contenedor">
+                        
+                        <div class="contenedor-secundario">
+                            <span class="material-icons md-100 user_icon">person</span>
+                        </div>
+                        <div class="section__infoAuditoria">
+                            <h2 class="info media_esposive">Usuario: <span>Andres camilo Garzón Murillo</span></h2>
+                            <h4 class="info">Hora: <span>Hoy a las 8:40</span></h4>
+                            <h4 class="info">Acción: <span>Ha modificado los roles de Daniel Gomez trujillo Hernandez</span></h4>
+                        </div>
+                        <a href="verMasDetallesAuditoria.html" class="button visualizar">Visualizar</a>
+                    </div>
+                </section>
+                <section>
+                    <div class="contenedor">
+                        
+                        <div class="contenedor-secundario">
+                            <span class="material-icons md-100 user_icon">person</span>
+                        </div>
+                        <div class="section__infoAuditoria">
+                            <h2 class="info media_esposive">Usuario: <span>Andres camilo Garzón Murillo</span></h2>
+                            <h4 class="info">Hora: <span>Hoy a las 8:40</span></h4>
+                            <h4 class="info">Acción: <span>Ha modificado los roles de Daniel Gomez trujillo Hernandez</span></h4>
+                        </div>
+                        <a href="verMasDetallesAuditoria.html" class="button visualizar">Visualizar</a>
+                    </div>
+                </section>
+                <section>
+                    <div class="contenedor">
+                        
+                        <div class="contenedor-secundario">
+                            <span class="material-icons md-100 user_icon">person</span>
+                        </div>
+                        <div class="section__infoAuditoria">
+                            <h2 class="info media_esposive">Usuario: <span>Andres camilo Garzón Murillo</span></h2>
+                            <h4 class="info">Hora: <span>Hoy a las 8:40</span></h4>
+                            <h4 class="info">Acción: <span>Ha modificado los roles de Daniel Gomez trujillo Hernandez</span></h4>
+                        </div>
+                        <a href="VerMasDetallesAuditoria.html" class="button visualizar">Visualizar</a>
+                    </div>
+                </section>
+
+            </main>
+        </div>
+                
+    </main>
+</body>
+</html>

@@ -1,0 +1,162 @@
+body{
+    size: 98%;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    height: 9rem;
+    width: 14rem;
+    
+    
+}
+section{
+    border: solid 1px;
+    width: 20rem;
+    height: 350px;
+    
+    
+}
+h2{
+    text-align: center;
+}
+.plus{
+    background-color:#F78811;
+    border-radius: 50%;
+    
+}
+
+aside{
+    margin: 1rem;
+    border: solid 1px;
+    width: 50rem;
+    height: 350px;
+    position: relative;
+    bottom: 1rem;
+    
+}
+form{
+    margin: 1rem;
+   display: inline-block;
+}
+.formL{
+    margin: 15px;
+    
+}
+input{
+    width: 30rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+.saveCancel{
+    display:flex;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.divSave{
+    width:6rem;
+    height: 2rem;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color:#F78811;
+    margin-left: auto;
+    margin-right: auto;
+
+   
+}
+.divCancel{
+    width: 6rem;
+    height: 2rem;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: #EA411D;
+}
+
+.Matriz{
+    display: grid;
+    grid-template-columns: 30% 80%;
+}
+.imagenSection{
+   
+ margin: auto;
+}
+
+.imagenSection h2{
+    align-items: center;
+}
+
+.img{
+  position: relative;
+  left: 3rem;
+  right: auto;
+}
+
+.icons{
+    position: relative;
+    left: 6rem;
+  right: auto;
+  margin-top: 4rem;
+
+}
+
+.search_parametros{
+    font-weight: bold;
+    position: relative;
+    left: 4rem;
+}
+
+.nameProduct{
+    font-weight: bold;
+}
+
+.description{
+    
+    position: relative;
+    left: 4rem;
+}
+
+.price{
+    font-weight: bold;
+    position: relative;
+    left: 6rem;
+}
+
+.descrip{
+    height: 4rem;
+    position: relative;
+    left: 4rem;
+}
+
+.formL{
+    display: flex;
+}
+.inputPrice{
+    position: relative;
+    left: 6rem;
+}
+
+.input-text{
+    position: relative;
+    left: 4rem;
+}
+.divSave a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.divCancel a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}

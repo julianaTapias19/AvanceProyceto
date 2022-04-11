@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrearProyecto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+<body>
+    <div class="main">
+        <h1 class="titleModule">Crear proyecto</h1>
+        <div class="formulario">
+            <form action="">
+                <div class="contenedor-campos">
+                    <h2><strong>Información general del proyecto</strong></h2>
+                    <div class="campo">
+                        <label>Nombre del proyecto:</label>
+                        <input type="text" placeholder="Nombre del proyecto...">
+                    </div>
+                    
+                    <div class="campo">
+                        <label>Encargado del proyecto:</label>
+                        <input type="text" class="campomedio" list="encargado" placeholder="Seleccione el encargado...">
+                        <datalist id="encargado">
+                            <option value="Encargado 1">
+                            <option value="Encargado 2">
+                        </datalist>
+                    </div>
+
+                    <div class="campo">
+                        <label>Costo estimado:</label>
+                        <input type="number" class="campomedio">
+                    </div>
+                    
+                    <div class="campo direccion">
+                            <label>Ciudad:</label>
+                            <input type="text" class="city">
+                        
+                            <label class="ciudad">Dirección:</label>
+                            <input type="text" class="address">
+                    </div>
+
+                    <div class="campo">
+                        <label>Fecha inicio del proyecto: </label>
+                        <input type="date" class="date">
+                        <label>Fecha fin del proyecto:</label>
+                        <input type="date" class="date">
+                    </div>
+                    
+                    <h2><strong>Información del producto</strong></h2>
+
+                    <div class="campo">
+                        <label>Producto:</label>
+                        <input type="text" class="product" list="producto">
+                        <datalist id="producto">
+                            <option value="Producto 1">
+                            <option value="Producto 2">
+                        </datalist>
+
+                        <label>Valor producto:</label>
+                        <input type="number" class="priceProduct" readonly>
+                    </div>
+
+                    <div class="campo campoCompartido">
+                        <label>Descripción:</label>
+                        <textarea cols="120" rows="10" readonly></textarea>
+                    </div>
+                    
+                    <div class="campo campoCompartido image">
+                        <label>Imagen del producto:</label>
+                        <img src="https://imgr.search.brave.com/6hWsit4UByxIN47ceHadtGHg6oYR2LiFCoDCxyeUcBw/fit/1200/719/ce/1/aHR0cHM6Ly93d3cu/c29tb3NtYW1hcy5j/b20uYXIvd3AtY29u/dGVudC91cGxvYWRz/LzIwMTcvMDcvQyVD/MyVCM21vLWN1cmFy/LXVuYS1jYXNhLWVu/ZmVybWEuanBn">
+                    </div>
+
+                    <h2><strong>Información del cliente</strong></h2>
+
+                    <div class="campo">
+                        <label>Cliente:</label>
+                        <input type="text" list="cliente">
+                        <datalist id="cliente">
+                            <option value="Cliente 1">
+                            <option value="Cliente 2">
+                        </datalist>
+                    </div>
+                    
+                    <div class="campo cliente">
+                        <label>Primer nombre cliente:</label>
+                        <input type="text" readonly>
+                        <label>Segundo nombre cliente:</label>
+                        <input type="text" readonly>
+                    </div>
+
+                    <div class="campo cliente">
+                        <label>Primer apellido cliente:</label>
+                        <input type="text" readonly>
+                        <label>Segundo apellido cliente</label>
+                        <input type="text" readonly>
+                    </div>
+
+                    <div class="botones">
+                        <a class="confirm" href="../inicioProyecto/moduloInicioProyecto.html">CONFIRMAR</a>
+                        <a class="cancel" href="../inicioProyecto/moduloInicioProyecto.html">CANCELAR</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

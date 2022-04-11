@@ -1,0 +1,281 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root{
+    --rojo: #EA411D;
+    --naranja: #F78811;
+}
+
+body{
+    height: 100%;
+    margin: 0%;
+}
+
+header{
+   border-bottom:solid red;
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   place-items: center start;
+}
+
+header .img{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+h1{
+    text-transform: uppercase;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    align-items: center;
+    height:6rem;
+    width:6rem;
+    border-radius: 50%;
+    position: relative;
+    left: 8px;
+}
+
+
+.contenedorNav a{
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    position: relative;
+    margin: 4rem;
+}
+
+.contenedorNav a::after{
+    content: "";
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    height: 2px;
+    width: 100%;
+    background: orangered;
+    /*creacion de la animacion*/
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: trasform 0.2s ease-in-out;
+}
+
+.contenedorNav a:hover:after{
+    /*animacion de ixquierda a derecha*/
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+/*Estructuracion section logo y serch*/
+
+.section{
+    height: 150px;
+}
+
+.search{
+    display: grid;
+    grid-template-columns: 65% 4% 20%;
+    place-items: center;
+    margin-top: 20px;
+}
+
+.search input{
+    width: 30rem;
+    height: 28px;
+    margin-right: 1rem;
+    border-radius: 9px;
+    border: 2px black solid;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.search svg{
+    cursor: pointer;
+}
+
+#houseType{
+   background: rgb(255, 255, 255);
+   width: 15rem;
+   bottom: 4rem;
+   margin-left: 20px;
+   margin-right: auto;
+   border: solid 2px;
+   border-radius: 10px;
+   height: 30px;
+}
+
+ img{
+    height: 10rem;
+    width: 10rem;
+    padding: 10px;
+    
+    
+}
+
+
+.div{
+    background:#F1EDED;
+    width: 45rem;
+    margin-top: 1rem;
+    border-radius: 5px; 
+    text-align: center;
+    border: 1px solid;
+}
+
+@media (max-width: 1400px) {
+    .div{
+        width: 35rem;
+    }
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+.parent .myButton {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--naranja);
+    width: 100px;
+    height: 30px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+svg{
+    cursor: pointer;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+ display: grid;
+ place-items: top;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+
+.img .prev{
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.img .next{
+    margin-right: auto;
+    margin-left: 5px;
+}
