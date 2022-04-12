@@ -6,7 +6,7 @@ let modalC=document.querySelector(".modal-container");
 let segunda=document.querySelector(".segunda-modal");
 let irse=document.getElementById("irse");
 let confirmar=document.getElementById("confirmar")
-let despublicar=document.querySelector("mCar");
+//let despublicar=document.querySelector("mCar");
 
 for (let l = 0; l < abrir.length; l++) {
     abrir[l].addEventListener('click', () => {
