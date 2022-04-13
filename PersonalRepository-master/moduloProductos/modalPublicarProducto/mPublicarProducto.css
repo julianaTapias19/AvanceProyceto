@@ -31,7 +31,7 @@ top:0;
 left:0;
 background: rgb(0,0,0,0.5);
 display:flex;
-visibility:hidden;
+visibility:visible;
    
 }
 
@@ -44,7 +44,7 @@ visibility:hidden;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    opacity: 0;
+    opacity: 1;
     
 }
 
